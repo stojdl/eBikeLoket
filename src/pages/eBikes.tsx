@@ -1,5 +1,5 @@
 import React from "react";
-import EbikesForRent from "@/fragments/eBikesForRent";
+import EbikesForRent from "@/fragments/EbikesForRent";
 import Layout from "@/components/Layout";
 import WhereToGo from "@/fragments/WhereToGo";
 

@@ -1,12 +1,12 @@
 import React from "react";
-import Introduction from "@/fragments/Introduction";
+import EbikesForRent from "@/fragments/eBikesForRent";
 import Layout from "@/components/Layout";
 import WhereToGo from "@/fragments/WhereToGo";
 
-export default function Home() {
+export default function eBikes() {
   return (
     <Layout>
-      <Introduction />
+      <EbikesForRent />
       <WhereToGo />
     </Layout>
   );

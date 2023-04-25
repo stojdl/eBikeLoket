@@ -7,7 +7,9 @@ import Footer from "@/fragments/Footer";
 export default function Layout(props: LayoutProps) {
   const { children } = props;
   return (
-    <main className={`flex min-h-screen flex-col items-center justify-between`}>
+    <main
+      className={`w-screen flex min-h-screen flex-col items-center justify-between`}
+    >
       <Header />
       <Navbar />
       {children}

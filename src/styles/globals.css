@@ -7,11 +7,11 @@ body {
 }
 
 h1 {
-  @apply text-2xl sm:text-3xl xl:text-4xl;
+  @apply text-2xl sm:text-4xl xl:text-5xl;
 }
 
 h2 {
-  @apply text-base xl:text-2xl;
+  @apply text-base xl:text-3xl;
 }
 
 h3 {

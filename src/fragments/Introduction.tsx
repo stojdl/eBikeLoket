@@ -3,9 +3,9 @@ import React from "react";
 
 export default function Introduction() {
   return (
-    <section className="relative h-no-header-mobile grid place-items-center sm:h-no-header-small xl:h-no-header">
+    <section className="relative w-full h-no-header-mobile grid place-items-center sm:h-no-header-small xl:h-no-header xl:items-end">
       <SectionTitle>elektrokolo bez starostí</SectionTitle>
-      <div className="px-4 py-20 space-y-4 sm:space-y-6 md:px-10 xl:px-20">
+      <div className="px-4 py-20 space-y-4 sm:space-y-6 sm:w-160">
         <p>
           Jedete do Lokte jako turista a nechcete se trápit s převozem Vašich
           kol? Nebo se chcete vydat s přáteli na jednorázový cyklovýlet a nemáte

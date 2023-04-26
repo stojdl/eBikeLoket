@@ -1,3 +1,4 @@
+import Button from "@/components/Button";
 import SectionTitle from "@/components/SectionTitle";
 import React from "react";
 
@@ -18,6 +19,11 @@ export default function Introduction() {
           pohodlně a s velkou dojezdovou vzdáleností. Parkování přímo v místě
           půjčovny.
         </p>
+        <div className="w-full pt-6 grid place-items-center">
+          <Button link="#" icon="placeholder-white">
+            Vyplnit nezávaznou poptávku
+          </Button>
+        </div>
       </div>
     </section>
   );

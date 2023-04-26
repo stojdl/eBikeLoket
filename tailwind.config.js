@@ -13,6 +13,7 @@ module.exports = {
       },
       spacing: {
         128: "32rem",
+        160: "40rem",
       },
       height: {
         "no-header": "calc(100vh - 29rem)",

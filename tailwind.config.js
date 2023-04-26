@@ -16,7 +16,7 @@ module.exports = {
         160: "40rem",
       },
       height: {
-        "no-header": "calc(100vh - 29rem)",
+        "no-header": "calc(100vh - 25rem)",
         "no-header-small": "calc(100vh - 20rem)",
         "no-header-mobile": "calc(100vh - 16rem)",
       },

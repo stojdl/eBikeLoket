@@ -25,7 +25,7 @@ export default function Navbar() {
           isOpen ? "block" : "hidden"
         } fixed z-10 w-screen h-screen bg-black sm:hidden`}
       ></div>
-      <div className="hidden sm:flex w-full h-16 px-4 items-center justify-between space-x-4 md:px-10 xl:h-20 xl:px-20">
+      <div className="hidden sm:flex sticky w-full h-14 px-4 items-center justify-between space-x-4 md:px-16 xl:h-16 xl:px-40">
         <NavLink href={ROUTES.introduction}>úvod</NavLink>
         <NavLink href={ROUTES.eBikes}>elektrokola</NavLink>
         <NavLink href={ROUTES.howRentingWorks}> jak půjčení probíhá</NavLink>

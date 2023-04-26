@@ -13,6 +13,12 @@ module.exports = {
       },
       spacing: {
         128: "32rem",
+        160: "40rem",
+      },
+      height: {
+        "no-header": "calc(100vh - 29rem)",
+        "no-header-small": "calc(100vh - 20rem)",
+        "no-header-mobile": "calc(100vh - 16rem)",
       },
     },
   },

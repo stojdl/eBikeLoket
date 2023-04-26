@@ -11,15 +11,15 @@ h1 {
 }
 
 h2 {
-  @apply text-base xl:text-3xl;
+  @apply text-xl xl:text-3xl;
 }
 
 h3 {
-  @apply text-base xl:text-xl;
+  @apply text-lg xl:text-2xl;
 }
 
 h4 {
-  @apply text-base xl:text-lg;
+  @apply text-base xl:text-xl;
 }
 
 h5 {
